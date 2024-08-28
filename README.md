@@ -73,9 +73,9 @@ dates, added in additional columns for:
   by week, aiding in time series analysis by grouping observations into
   weekly periods.
 
-![](images/Figure%201.%20Original%20data%20%20(unedited).png)Figure 1 - Original data -- unedited
+![](images/Figure%201.%20Original%20data%20%20(unedited).png)*Figure 1 - Original data - unedited*
 
-![](images/Figure%202.%20Data%20after%20cleaning%20and%20prepping.png)Figure 2 - Data after cleaning & prepping
+![](images/Figure%202.%20Data%20after%20cleaning%20and%20prepping.png)*Figure 2 - Data after cleaning & prepping*
 
 ### 
 
@@ -107,9 +107,9 @@ and Python.
 
 **Screenshots and narratives:**
 
-![](images/Figure%203.%20Time%20Series%20Analysis%20on%20weight%20in%20g%20over%20a%20period%20of%20time.png)Figure 3 - Time Series Analysis on weight in g over a period of time
+![](images/Figure%203.%20Time%20Series%20Analysis%20on%20weight%20in%20g%20over%20a%20period%20of%20time.png)*Figure 3 - Time Series Analysis on weight in g over a period of time*
 
-
+## 
 
 Figure 3: The trend line indicates a steady increase in individuals'
 weight over time, with a future prediction suggesting a gradual
@@ -120,11 +120,11 @@ contribute to weight loss, such as hydration levels, calorie
 expenditure, and meal timing. Each of these variables can affect an
 individual's weight loss journey.
 
+## 
 
+![](images/Figure%204.%20Weight%20difference,%20Time%20Series%20Analysis.png)*Figure 4 - Weight difference - Time Series Analysis*
 
-![](images/Figure%204.%20Weight%20difference,%20Time%20Series%20Analysis.png)Figure 4 - Weight difference - Time Series Analysis
-
-
+## 
 
 Figure 4 illustrates the fluctuations in weight difference (either
 positive or negative), measured in grams, that the individual has
@@ -135,22 +135,22 @@ attributed to factors such as hydration levels and calorie intake, but
 such significant variations are not conducive to healthy weight
 management.
 
+## 
 
+![](images/Figure%205.%20Weight%20loss%20in%20grams,%20per%20100%20calories%20consumed.png)*Figure 5 - Weight loss in grams, per 100 calories consumed*
 
-![](images/Figure%205.%20Weight%20loss%20in%20grams,%20per%20100%20calories%20consumed.png)Figure 5 - Weight loss in grams, per 100 calories consumed
-
-
+## 
 
 Figure 5 provides a detailed analysis of how much weight the individual
 gains or loses per 100 kcal consumed. This approach offers a
 standardised method for comparing weight loss relative to calorie intake
 and helps determine whether weight loss through diet alone is feasible.
 
+## 
 
+![](images/Figure%206.%20Python%20script%20in%20Notepad%2B%2B.png)*Figure 6 - Python script in Notepad++*
 
-![](images/Figure%206.%20Python%20script%20in%20Notepad%2B%2B.png)Figure 6 - Python script in Notepad++
-
-
+## 
 
 Using Notepad++, I created a Python script to generate a scatter plot
 with a regression line. The script begins by importing necessary
@@ -170,12 +170,12 @@ After running the Python script shown in Figure 6, we produce the output
 displayed in Figure 7 and the graph presented in Figure 8. Explanations
 for both are provided below each figure.
 
+## 
 
+![](images/Figure%207.%20Python%20output,%20summary%20of%20prediction%20model%20OLS%20%28Ordinary%20Least%20Squares%29.png)*Figure 7 - Python output -- summary of prediction model OLS (Ordinary
+Least Squares)*
 
-![](images/Figure%207.%20Python%20output,%20summary%20of%20prediction%20model%20OLS%20%28Ordinary%20Least%20Squares%29.png)Figure 7 - Python output -- summary of prediction model OLS (Ordinary
-Least Squares)
-
-
+## 
 
 The figure above provides a detailed summary of the OLS regression model
 applied to the data. This summary, generated using the statsmodels
@@ -190,12 +190,12 @@ analysis highlights that while the model offers some useful insights,
 particularly regarding the significance of walking, it also has
 limitations that could impact its predictive accuracy and reliability.
 
+## 
 
+![](images/Figure%208.%20Scatterplot%20regression%20model%20showing%20actual%20vs%20predicted%20weight%20difference.png)*Figure 8 - Scatterplot regression model showing actual vs predicted
+weight difference*
 
-![](images/Figure%208.%20Scatterplot%20regression%20model%20showing%20actual%20vs%20predicted%20weight%20difference.png)Figure 8 - Scatterplot regression model showing actual vs predicted
-weight difference
-
-
+## 
 
 Finally, a scatter plot with a regression line is created using
 matplotlib to visualise the actual versus predicted weight differences
